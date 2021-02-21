@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'sql12.freemysqlhosting.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
+            'database' => env('DB_DATABASE', 'QI3TTR9p2V'),
             'username' => env('DB_USERNAME', 'sql12394341'),
             'password' => env('DB_PASSWORD', 'QI3TTR9p2V'),
             'unix_socket' => env('DB_SOCKET', ''),
