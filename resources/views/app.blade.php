@@ -73,7 +73,7 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-sm-6 my-4"><h2>{{ __('LEGAL') }}</h2><p><a href="#">{{ __('Terms & Conditions') }}</a></p><p><a href="#">{{ __('Privacy Notice') }}</a></p><p><a href="#">{{ __('Imprint') }}</a></p></div>
-					<div class="col-sm-6 my-4"><h2>{{ __('ABOUT US') }}</h2><p><a href="#">{{ __('Contact us') }}</a></p><p><a href="#">{{ __('Company') }}</a></p></div>
+					<div class="col-sm-6 my-4"><h2>{{ __('CONTACT US') }}</h2><p>{{ __('Mobile: 09390070605') }}</p><p>{{ __('Email: micorosatase13@gmail.com') }}</p></div>
 				</div>
 			</div>
 			<div class="col-md-4 my-4">
