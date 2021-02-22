@@ -8,8 +8,8 @@
 	@yield('aimeos_header')
 
 	<title>GEMGEN</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css">
-
+	{{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css"> --}}
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<style>
 		Theme: Black&White */
 		/* /* body {
@@ -25,8 +25,9 @@
 		.sm { display: inline-block } .sm:before { font: normal normal normal 14px/1 FontAwesome; padding: 0 0.2em; font-size: 225% }
 		.facebook:before { content: "\f082" } .twitter:before { content: "\f081" } .instagram:before { content: "\f16d" } .youtube:before { content: "\f167" }
 	</style>
+	
 	<link type="text/css" rel="stylesheet" href="{{ asset(config( 'shop.client.html.common.template.baseurl', 'packages/aimeos/shop/themes/elegance' ) . '/aimeos.css') }}" />
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
 </head>
 <body class="aimeos">
 	<nav class="navbar navbar-expand-md navbar-light">
@@ -82,8 +83,9 @@
 			</div>
 		</div>
 	</footer>
-	<!-- Scripts -->
-	<script src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4"></script>
+	<!-- Scripts --> 
+	{{-- <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4"></script> --}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 	@yield('aimeos_scripts')
 	</body>
 </html>
